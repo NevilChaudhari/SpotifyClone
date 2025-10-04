@@ -1,0 +1,88 @@
+.AlbumPage {
+    background: linear-gradient(to bottom, rgb(38, 56, 76) 0%, rgb(18, 18, 18) 100%);
+    flex-wrap: wrap;
+    border-radius: 5px;
+    color: #fff;
+    padding: 20px;
+    height: 100%;
+}
+
+.pageNavigation {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+}
+
+.pageHeader {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.albumCover {
+    margin-right: 20px;
+    border-radius: 5px;
+    width: 250px;
+    height: auto;
+}
+
+.albumDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.albumtitle {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.albumDesc {
+    font-size: 16px;
+    color: #aaa;
+}
+
+.song-list{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.song-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.song-list th,
+.song-list td {
+  padding: 10px;
+  text-align: left;
+}
+
+.songTitle{
+    display: flex;
+    align-items: center;
+}
+
+.songTitle img{
+    width: 40px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.song-list th {
+  border-bottom: 1px solid #333;
+  font-size: 12px;
+  color: #b3b3b3;
+}
+
+.song-list .songs:hover {
+    cursor: pointer;
+  background-color: #2a2a2a;
+}

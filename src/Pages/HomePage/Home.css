@@ -1,0 +1,128 @@
+.Home{
+    background: linear-gradient(to bottom, rgb(38, 56, 76) 0%, rgb(18, 18, 18) 80%);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.homeNavigation{
+    width: 100%;
+    height: 10%;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+}
+
+.navigationLeftPartIcon{
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 20px;
+    height: auto;
+}
+
+.homeHeader{
+    width: 100%;
+    height: 40%;
+    margin-top: 20px;
+}
+
+.heroTitle{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.headerPlaylists{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10px;
+}
+
+.headerPlaylist{
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgba(65, 65, 65, 0.5);
+    width: auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.headerPlaylistCover{
+    margin-right: 10px;
+    width: 80px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.albumCont{
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    color: #fff;
+}
+
+.albumTitle{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.albumExpand{
+    position: absolute;
+    right: 0;
+    color: gray;
+}
+
+.albums{
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.album{
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.album:hover{
+    background-color: rgba(65, 65, 65, 0.5);
+}
+
+.albumCover{
+    width: auto;
+    max-width: 200px;
+    height: auto;
+}
+
+.albumsName{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.albumsOwnerName{
+    font-size: smaller;
+    color: gray;
+}
