@@ -28,7 +28,7 @@ function App() {
             <div className="previewDetails">
               <span className="playlistName">Playlist Name</span>
               <img
-                src={assets.img1}
+                src={assets["img" + currentSong.cover]}
                 alt="Album cover"
                 className="songPreviewCover"
               />
